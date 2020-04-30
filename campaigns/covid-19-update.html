@@ -375,7 +375,7 @@ h1#wb-cont::after {
   display: block; /* This will put the pseudo element on its own line. */
   width: 70px; /* Change this to whatever width you want to have before hover. */
   padding-bottom: 8px; /* This creates some space between the element and the border. */
-  border-bottom: .18em solid #af3c43; /* This creates the border. Replace black with whatever color you want. */
+  border-bottom: .18em solid #275369; /* This creates the border. Replace black with whatever color you want. */
 }
 ol.lst-stps:after, ol.lst-stps:before {
   content: " ";
@@ -758,24 +758,38 @@ background-image:url(“none”) !important;
 
 </div>
 
+<style>
+
+div h2.h3::after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 70px; /* Change this to whatever width you want to have before hover. */  
+  padding-bottom: 8px; /* This creates some space between the element and the border. */
+  border-bottom: .18em solid #7e9e00; /* This creates the border. Replace black with whatever color you want. */
+}
+
+</style>  
+
 <div class="container">
-<h3>Stay connected</h3>
+<h2 class="h3">Stay connected</h2>
 <ul>
     <li><a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/subscription-form.html">Sign up to get email updates on COVID-19 from the Government of Canada</a></li>
         </ul>
     
-  <h3>Additional updates on:</h3>
+<h2 class="h3">Additional updates on:</h2>
 <ul>
 <li><a href="/en/public-health/services/diseases/coronavirus-disease-covid-19.html?utm_campaign=not-applicable&amp;utm_medium=vanity-url&amp;utm_source=canada-ca_coronavirus">Coronavirus disease <span class="nowrap">COVID-19</span></a> (Public Health Agency of Canada)</li>
 <li><a href="/en/services/benefits/ei.html">Employment Insurance (EI) benefits</a> (Service Canada)</li>
         </ul>
 
-<h3>Information for:</h3>
+<h2 class="h3">Information for:</h2>
 <ul>
 <li><a href="https://www.canada.ca/en/revenue-agency/services/covid-19-employee-supplier/covid-19-employee-info.html">CRA employees</a></li>
 <li><a href="https://www.canada.ca/en/revenue-agency/services/covid-19-employee-supplier/covid-19-supplier-info.html">CRA contracted resources and suppliers</a></li>
 </ul>
 </div>
+
+
 
 <div class="container">
 <div class="pagedetails">
